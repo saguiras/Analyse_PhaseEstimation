@@ -6,9 +6,6 @@ Ce module Python utilise Q# et Jupyter Notebooks pour effectuer une analyse appr
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -21,8 +18,12 @@ Ce module Python utilise Q# et Jupyter Notebooks pour effectuer une analyse appr
 
 2. Environment setup:
     ```bash
-    pip install qsharp
+    pip install qsharp 
+    ```
+    ```bash
     dotnet tool install -g Microsoft.Quantum.IQSharp
+    ```
+    ```bash
     dotnet iqsharp install
     ```
     ```bash
